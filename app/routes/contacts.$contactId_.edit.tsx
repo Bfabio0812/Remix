@@ -33,7 +33,7 @@ export default function EditContact() {
   const { contact } = useLoaderData<typeof loader>();
 
   return (
-    <Form method="post" id="contact-form">
+    <Form key={contact.id} method="post" id="contact-form">
       <p>
         <label>
           <span>Last name</span>

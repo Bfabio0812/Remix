@@ -1,0 +1,4 @@
+//https://rickandmortyapi.com/documentation/#character-schema
+
+//crear un app con remix software que se conecte a la anterior API 
+//y permita visualizar 20 personajes.
